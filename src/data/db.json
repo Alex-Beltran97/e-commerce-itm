@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "Secadora",
+      "price": 40000,
+      "description": "Secadora de pelo ultra potente",
+      "colors": [
+          {
+              "name": "blue",
+              "hex-value": "#001dff"
+          },
+          {
+              "name": "green",
+              "hex-value": "#00ff0c"
+          },
+          {
+              "name": "red",
+              "hex-value": "#ff0000"
+          }
+      ], 
+      "images": {
+          "main-imagen": "https://www.example1.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
+          "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
+          "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
+      }
+      
+    }
+  ]
+}
