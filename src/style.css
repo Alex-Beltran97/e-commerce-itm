@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color-primary: #000;
+  --text-color-secondary: #9CA3AF;
+  --bg-color-primary: #E1E3E4;
+  --bg-color-secondary: #0058BC;
+  --font-size-base: 16px;
+  --font-weight-light: 300;
+  --font-weight-base: 500;
+  --font-weight-bold: 700;
+  --margin-default: 16px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-size-base);
+}
