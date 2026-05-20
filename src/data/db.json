@@ -1,29 +1,148 @@
 {
-  "products": [
-    {
-      "name": "Secadora",
-      "price": 40000,
-      "description": "Secadora de pelo ultra potente",
-      "colors": [
-          {
-              "name": "blue",
-              "hex-value": "#001dff"
-          },
-          {
-              "name": "green",
-              "hex-value": "#00ff0c"
-          },
-          {
-              "name": "red",
-              "hex-value": "#ff0000"
-          }
-      ], 
-      "images": {
-          "main-imagen": "https://www.example1.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
-          "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
-          "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
-      }
-      
-    }
-  ]
+    "products": [
+        {
+            "name": "Secadora",
+            "price": 40000,
+            "description": "Secadora de pelo ultra potente",
+            "colors": [
+                {
+                    "name": "blue",
+                    "hex-value": "#001dff"
+                },
+                {
+                    "name": "green",
+                    "hex-value": "#00ff0c"
+                },
+                {
+                    "name": "red",
+                    "hex-value": "#ff0000"
+                }
+            ],
+            "images": {
+                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
+                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
+            }
+        },
+        {
+            "name": "Secadora",
+            "price": 40000,
+            "description": "Secadora de pelo ultra potente",
+            "colors": [
+                {
+                    "name": "blue",
+                    "hex-value": "#001dff"
+                },
+                {
+                    "name": "green",
+                    "hex-value": "#00ff0c"
+                },
+                {
+                    "name": "red",
+                    "hex-value": "#ff0000"
+                }
+            ],
+            "images": {
+                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
+                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
+            }
+        },
+        {
+            "name": "Secadora",
+            "price": 40000,
+            "description": "Secadora de pelo ultra potente",
+            "colors": [
+                {
+                    "name": "blue",
+                    "hex-value": "#001dff"
+                },
+                {
+                    "name": "green",
+                    "hex-value": "#00ff0c"
+                },
+                {
+                    "name": "red",
+                    "hex-value": "#ff0000"
+                }
+            ],
+            "images": {
+                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
+                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
+            }
+        },
+        {
+            "name": "Secadora",
+            "price": 40000,
+            "description": "Secadora de pelo ultra potente",
+            "colors": [
+                {
+                    "name": "blue",
+                    "hex-value": "#001dff"
+                },
+                {
+                    "name": "green",
+                    "hex-value": "#00ff0c"
+                },
+                {
+                    "name": "red",
+                    "hex-value": "#ff0000"
+                }
+            ],
+            "images": {
+                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
+                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
+            }
+        },
+        {
+            "name": "Secadora",
+            "price": 40000,
+            "description": "Secadora de pelo ultra potente",
+            "colors": [
+                {
+                    "name": "blue",
+                    "hex-value": "#001dff"
+                },
+                {
+                    "name": "green",
+                    "hex-value": "#00ff0c"
+                },
+                {
+                    "name": "red",
+                    "hex-value": "#ff0000"
+                }
+            ],
+            "images": {
+                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
+                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
+            }
+        },
+        {
+            "name": "Secadora",
+            "price": 40000,
+            "description": "Secadora de pelo ultra potente",
+            "colors": [
+                {
+                    "name": "blue",
+                    "hex-value": "#001dff"
+                },
+                {
+                    "name": "green",
+                    "hex-value": "#00ff0c"
+                },
+                {
+                    "name": "red",
+                    "hex-value": "#ff0000"
+                }
+            ],
+            "images": {
+                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
+                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
+            }
+        }
+    ]
 }
