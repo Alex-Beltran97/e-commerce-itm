@@ -113,12 +113,10 @@ main {
     margin-bottom: 101.29px;
 
     .container__item {
-      border: 1px solid black;
       width: 378.66px;
       height: 538.11px;
 
       .card__item--image {
-        border: 1px solid black;
         width: 100%;
         height: 473.31px;
         object-fit: cover;
@@ -127,6 +125,20 @@ main {
           width: 100%;
           height: 100%;
           object-fit: cover;
+        }
+      }
+
+      .card__item--details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 20px;
+
+        .details__item--price {
+          justify-self: end;
+        }
+
+        .details__item--description {
+          font-size: 14px;
         }
       }
     }

@@ -1,4 +1,6 @@
-function printHome() {
+import { getProducts } from "../../api/products";
+
+function renderHome(productsList) {
   return `
     <section class="presentation">
       <h1 class="presentation__item presentation__item--title">Tenemos mucha variedad de productos</h1>
@@ -7,69 +9,35 @@ function printHome() {
     <section class="products-list">
       <h2 class="products-list__item products-list__item--title">Nuestros Productos</h2>
       <div class="products-list__item products-list__item--container">
-        <div class="container__item container__item--card">
-          <figure class="card__item card__item--image">
-            <img src="/src/assets/product1.jpg" alt="Producto 1">
-          </figure>
-          <div class="card__item card__item--details">
-            <h4>Ceramic Vessel</h4>
-            <b>$29.99</b>
-            <p>Beautifully crafted ceramic</p>
-          </div>
-        </div>
-        <div class="container__item container__item--card">
-          <figure class="card__item card__item--image">
-            <img src="/src/assets/product1.jpg" alt="Producto 1">
-          </figure>
-          <div class="card__item card__item--details">
-            <h4>Ceramic Vessel</h4>
-            <b>$29.99</b>
-            <p>Beautifully crafted ceramic</p>
-          </div>
-        </div>
-        <div class="container__item container__item--card">
-          <figure class="card__item card__item--image">
-            <img class="card__item card__item--image" src="/src/assets/product1.jpg" alt="Producto 1">
-          </figure>
-          <div class="card__item card__item--details">
-            <h4>Ceramic Vessel</h4>
-            <b>$29.99</b>
-            <p>Beautifully crafted ceramic</p>
-          </div>
-        </div>
-        <div class="container__item container__item--card">
-          <figure class="card__item card__item--image">
-            <img src="/src/assets/product1.jpg" alt="Producto 1">
-          </figure>
-          <div class="card__item card__item--details">
-            <h4>Ceramic Vessel</h4>
-            <b>$29.99</b>
-            <p>Beautifully crafted ceramic</p>
-          </div>
-        </div>
-        <div class="container__item container__item--card">
-          <figure class="card__item card__item--image">
-            <img src="/src/assets/product1.jpg" alt="Producto 1">
-          </figure>
-          <div class="card__item card__item--details">
-            <h4>Ceramic Vessel</h4>
-            <b>$29.99</b>
-            <p>Beautifully crafted ceramic</p>
-          </div>
-        </div>
-        <div class="container__item container__item--card">
-          <figure class="card__item card__item--image">
-            <img src="/src/assets/product1.jpg" alt="Producto 1">
-          </figure>
-          <div class="card__item card__item--details">
-            <h4>Ceramic Vessel</h4>
-            <b>$29.99</b>
-            <p>Beautifully crafted ceramic</p>
-          </div>
-        </div>
+        ${productsList.map(product => cardTpl(product)).join('')}
       </div>
     </section>
   `
 };
 
-export default printHome;
+function cardTpl({name, price, description, images}) {
+  return `
+    <div class="container__item container__item--${name.toLowerCase()}">
+      <figure class="card__item card__item--image">
+        <img src="${images['main-imagen']}" alt="${name}">
+      </figure>
+      <div class="card__item card__item--details">
+        <h4 class="details__item details__item--name">${name}</h4>
+        <b class="details__item details__item--price">$${price}</b>
+        <p class="details__item details__item--description">${description}</p>
+      </div>
+    </div>
+  `;
+}
+
+async function initProductsModule() {
+  try {
+    const products = await getProducts();
+    return renderHome(products);
+  } catch (error) {
+    console.error("Error fetching products:", error);
+    return '';
+  }
+}
+
+export default initProductsModule;

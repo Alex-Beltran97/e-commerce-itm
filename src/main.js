@@ -20,7 +20,7 @@ switch (basePath) {
   case 'undefined':
   case paths.home:
       handlenavigation("inicio");
-      main.innerHTML = productList();
+      main.innerHTML = await productList();
       console.log("INICIO");
     break;
     case paths.about:
