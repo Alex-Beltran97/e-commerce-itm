@@ -17,6 +17,7 @@ const paths = {
 
 import productList from './modules/products-list';
 import productDetail from './modules/product-detail';
+import aboutUs from './modules/about-us';
 
 switch (basePath) {
   case 'undefined':
@@ -32,6 +33,7 @@ switch (basePath) {
     break;
     case paths.about:
       handlenavigation("¿quienes somos?");
+      await aboutUs();
       console.log("SOBRE NOSOTROS");
     break;
   case paths.contact:
