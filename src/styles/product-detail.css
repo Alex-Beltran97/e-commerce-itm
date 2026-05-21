@@ -1,0 +1,105 @@
+.product-detail {
+  width: 1184px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;  
+
+  .product-detail__item--image {
+    border: 1px solid var(--bg-color-secondary);
+    width: 641px;
+    height: 801px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F4F5;
+
+    img {
+      width: 100%;
+      height: 471.31px;
+    }
+  }
+  
+  .product-detail__item--details {
+    width: 441.59px;
+    height: 717.39px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-default);
+
+    .product-detail__item--title {
+      font-size: 48px;      
+    }
+
+    .product-detail__item--price {
+      font-size: 30px;
+    }
+
+    .product-detail__item--description {
+      font-size: 18px;
+    }
+
+    .product-detail__item--colors-label {
+      font-size: 14px;
+    }
+
+    .product-detail__item--colors {
+      display: flex;
+      gap: 8px;
+
+      .colors__item {
+        width: 40px;
+        height: 40px;
+        border-radius: var(--bd-radius);
+        border: 1px solid var(--bg-color-secondary);
+        cursor: pointer;
+      }
+    }
+
+    .product-detail__item--hr {
+      height: 1px;
+      border: none;
+      outline: none;
+      background-color: var(--bg-color-secondary);
+    }
+
+    .product-detail__item--free-shipping {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-default);
+      font-size: 14px;
+
+      span {
+        color: var(--bg-color-tertiary);
+      }
+    }
+
+    .product-detail__item--actions {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-default);
+
+      .actions__item {
+        border-radius: var(--bd-radius);
+        border: 1px solid black;
+        font-size: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: var(--spacing-default) 0;
+      }
+
+      .actions__item--add-to-cart {
+        background-color: var(--bg-color-tertiary);
+        color: var(--bg-color-primary);
+      }
+      
+      .actions__item--favorite {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    }
+  }
+}

@@ -10,18 +10,25 @@ const main = document.querySelector('main');
 const paths = {
   'home': '/',
   'home': 'home',
+  'product': 'product',
   'about': 'about-us',
   'contact': 'contact-us'
 };
 
 import productList from './modules/products-list';
+import productDetail from './modules/product-detail';
 
 switch (basePath) {
   case 'undefined':
   case paths.home:
       handlenavigation("inicio");
-      main.innerHTML = await productList();
+      await productList();
       console.log("INICIO");
+    break;
+    case paths.product:
+      handlenavigation("producto");
+      await productDetail();
+      console.log("PRODUCTO");
     break;
     case paths.about:
       handlenavigation("¿quienes somos?");
@@ -38,5 +45,7 @@ switch (basePath) {
 
 function handlenavigation(tabName) {
   const tab = Array.from(navigator).find(element => element.innerHTML.toLocaleLowerCase().includes(tabName.toLocaleLowerCase()));
-  tab.classList.add('navigator__item--active');
+  if (tab?.classList) {
+    tab.classList.add('navigator__item--active');
+  };
 }

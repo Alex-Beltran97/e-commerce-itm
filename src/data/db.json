@@ -1,148 +1,148 @@
 {
     "products": [
         {
+            "id": 1,
             "name": "Secadora",
             "price": 40000,
-            "description": "Secadora de pelo ultra potente",
-            "colors": [
+            "label": "Secadora de pelo ultra potente",            
+            "description": "Secadora profesional de pelo con tecnología iónica avanzada que reduce el frizz y aporta brillo. Cuenta con motor de alto rendimiento de 2200W, 3 niveles de temperatura, 2 velocidades y función de aire frío para fijar el peinado. Incluye boquilla concentradora y difusor. Diseño ergonómico y liviano para un uso cómodo y prolongado.",            
+            "types": [
                 {
-                    "name": "blue",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                    "color": "rojo",
+                    "hex-value": "#ff0000"
+                },
+                {
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254040/Gemini_Generated_Image_qcz7o2qcz7o2qcz7_z8tqzz.png",
+                    "color": "azul",
                     "hex-value": "#001dff"
                 },
                 {
-                    "name": "green",
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254539/Screenshot_at_May_20_00-21-51_lykv9u.png",
+                    "color": "verde",
                     "hex-value": "#00ff0c"
-                },
-                {
-                    "name": "red",
-                    "hex-value": "#ff0000"
                 }
-            ],
-            "images": {
-                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
-                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
-                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
-            }
+            ]
         },
         {
+            "id": 2,
             "name": "Secadora",
             "price": 40000,
-            "description": "Secadora de pelo ultra potente",
-            "colors": [
+            "label": "Secadora de pelo ultra potente",
+            "description": "Secadora profesional de pelo con tecnología iónica avanzada que reduce el frizz y aporta brillo. Cuenta con motor de alto rendimiento de 2200W, 3 niveles de temperatura, 2 velocidades y función de aire frío para fijar el peinado. Incluye boquilla concentradora y difusor. Diseño ergonómico y liviano para un uso cómodo y prolongado.",
+            "types": [
                 {
-                    "name": "blue",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                    "color": "rojo",
+                    "hex-value": "#ff0000"
+                },
+                {
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254040/Gemini_Generated_Image_qcz7o2qcz7o2qcz7_z8tqzz.png",
+                    "color": "azul",
                     "hex-value": "#001dff"
                 },
                 {
-                    "name": "green",
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254539/Screenshot_at_May_20_00-21-51_lykv9u.png",
+                    "color": "verde",
                     "hex-value": "#00ff0c"
-                },
-                {
-                    "name": "red",
-                    "hex-value": "#ff0000"
                 }
-            ],
-            "images": {
-                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
-                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
-                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
-            }
+            ]
         },
         {
+            "id": 3,
             "name": "Secadora",
             "price": 40000,
-            "description": "Secadora de pelo ultra potente",
-            "colors": [
+            "label": "Secadora de pelo ultra potente",
+            "description": "Secadora profesional de pelo con tecnología iónica avanzada que reduce el frizz y aporta brillo. Cuenta con motor de alto rendimiento de 2200W, 3 niveles de temperatura, 2 velocidades y función de aire frío para fijar el peinado. Incluye boquilla concentradora y difusor. Diseño ergonómico y liviano para un uso cómodo y prolongado.",
+            "types": [
                 {
-                    "name": "blue",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                    "color": "rojo",
+                    "hex-value": "#ff0000"
+                },
+                {
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254040/Gemini_Generated_Image_qcz7o2qcz7o2qcz7_z8tqzz.png",
+                    "color": "azul",
                     "hex-value": "#001dff"
                 },
                 {
-                    "name": "green",
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254539/Screenshot_at_May_20_00-21-51_lykv9u.png",
+                    "color": "verde",
                     "hex-value": "#00ff0c"
-                },
-                {
-                    "name": "red",
-                    "hex-value": "#ff0000"
                 }
-            ],
-            "images": {
-                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
-                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
-                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
-            }
+            ]
         },
         {
+            "id": 4,
             "name": "Secadora",
             "price": 40000,
-            "description": "Secadora de pelo ultra potente",
-            "colors": [
+            "label": "Secadora de pelo ultra potente",
+            "description": "Secadora profesional de pelo con tecnología iónica avanzada que reduce el frizz y aporta brillo. Cuenta con motor de alto rendimiento de 2200W, 3 niveles de temperatura, 2 velocidades y función de aire frío para fijar el peinado. Incluye boquilla concentradora y difusor. Diseño ergonómico y liviano para un uso cómodo y prolongado.",
+            "types": [
                 {
-                    "name": "blue",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                    "color": "rojo",
+                    "hex-value": "#ff0000"
+                },
+                {
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254040/Gemini_Generated_Image_qcz7o2qcz7o2qcz7_z8tqzz.png",
+                    "color": "azul",
                     "hex-value": "#001dff"
                 },
                 {
-                    "name": "green",
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254539/Screenshot_at_May_20_00-21-51_lykv9u.png",
+                    "color": "verde",
                     "hex-value": "#00ff0c"
-                },
-                {
-                    "name": "red",
-                    "hex-value": "#ff0000"
                 }
-            ],
-            "images": {
-                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
-                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
-                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
-            }
+            ]
         },
         {
+            "id": 5,
             "name": "Secadora",
             "price": 40000,
-            "description": "Secadora de pelo ultra potente",
-            "colors": [
+            "label": "Secadora de pelo ultra potente",
+            "description": "Secadora profesional de pelo con tecnología iónica avanzada que reduce el frizz y aporta brillo. Cuenta con motor de alto rendimiento de 2200W, 3 niveles de temperatura, 2 velocidades y función de aire frío para fijar el peinado. Incluye boquilla concentradora y difusor. Diseño ergonómico y liviano para un uso cómodo y prolongado.",
+            "types": [
                 {
-                    "name": "blue",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                    "color": "rojo",
+                    "hex-value": "#ff0000"
+                },
+                {
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254040/Gemini_Generated_Image_qcz7o2qcz7o2qcz7_z8tqzz.png",
+                    "color": "azul",
                     "hex-value": "#001dff"
                 },
                 {
-                    "name": "green",
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254539/Screenshot_at_May_20_00-21-51_lykv9u.png",
+                    "color": "verde",
                     "hex-value": "#00ff0c"
-                },
-                {
-                    "name": "red",
-                    "hex-value": "#ff0000"
                 }
-            ],
-            "images": {
-                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
-                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
-                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
-            }
+            ]
         },
         {
+            "id": 6,
             "name": "Secadora",
             "price": 40000,
-            "description": "Secadora de pelo ultra potente",
-            "colors": [
+            "label": "Secadora de pelo ultra potente",
+            "description": "Secadora profesional de pelo con tecnología iónica avanzada que reduce el frizz y aporta brillo. Cuenta con motor de alto rendimiento de 2200W, 3 niveles de temperatura, 2 velocidades y función de aire frío para fijar el peinado. Incluye boquilla concentradora y difusor. Diseño ergonómico y liviano para un uso cómodo y prolongado.",
+            "types": [
                 {
-                    "name": "blue",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
+                    "color": "rojo",
+                    "hex-value": "#ff0000"
+                },
+                {
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254040/Gemini_Generated_Image_qcz7o2qcz7o2qcz7_z8tqzz.png",
+                    "color": "azul",
                     "hex-value": "#001dff"
                 },
                 {
-                    "name": "green",
+                    "image": "https://res.cloudinary.com/duzyd4ju7/image/upload/v1779254539/Screenshot_at_May_20_00-21-51_lykv9u.png",
+                    "color": "verde",
                     "hex-value": "#00ff0c"
-                },
-                {
-                    "name": "red",
-                    "hex-value": "#ff0000"
                 }
-            ],
-            "images": {
-                "main-imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLwqC7VlKujlnfMVdxoZoZJGo9FdB3Dq7u6w&s",
-                "secondary-imagen": "https://www.example2.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg",
-                "tertiary-imagen": "https://www.example3.com/co/wp-content/uploads/sites/27/2019/12/AC9096-Secador-Remington-Silk-Infundido-en-Ceramica-con-Seda-03.jpg"
-            }
+            ]
         }
     ]
 }

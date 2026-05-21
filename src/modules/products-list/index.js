@@ -15,28 +15,33 @@ function renderHome(productsList) {
   `
 };
 
-function cardTpl({name, price, description, images}) {
+function cardTpl({id, name, price, label, types}) {
   return `
-    <div class="container__item container__item--${name.toLowerCase()}">
+    <a
+      class="container__item
+      container__item--${name.toLowerCase()}"
+      href="/product/${id}"
+    >
       <figure class="card__item card__item--image">
-        <img src="${images['main-imagen']}" alt="${name}">
+        <img src="${types[0].image}" alt="${name}">
       </figure>
       <div class="card__item card__item--details">
         <h4 class="details__item details__item--name">${name}</h4>
         <b class="details__item details__item--price">$${price}</b>
-        <p class="details__item details__item--description">${description}</p>
+        <p class="details__item details__item--label">${label}</p>
       </div>
-    </div>
+    </a>
   `;
 }
 
 async function initProductsModule() {
   try {
     const products = await getProducts();
-    return renderHome(products);
+    const html = renderHome(products);
+    document.querySelector('main').innerHTML = html;
   } catch (error) {
     console.error("Error fetching products:", error);
-    return '';
+    document.querySelector('main').innerHTML = '';
   }
 }
 
