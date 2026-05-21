@@ -18,6 +18,7 @@ const paths = {
 import productList from './modules/products-list';
 import productDetail from './modules/product-detail';
 import aboutUs from './modules/about-us';
+import contactUs from './modules/contact-us';
 
 switch (basePath) {
   case 'undefined':
@@ -38,6 +39,7 @@ switch (basePath) {
     break;
   case paths.contact:
       handlenavigation("contactanos");
+      await contactUs();
       console.log("CONTACTO");
     break;
   default:
