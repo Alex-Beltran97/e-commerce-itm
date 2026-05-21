@@ -2,7 +2,11 @@ const URL_PATH = window.location.href;
 const urlObj = new URL(URL_PATH);
 const segments = urlObj.pathname.split('/').filter(Boolean);
 
-const basePath = String(segments[0]).toLocaleLowerCase();
+let basePath = String(segments[0]).toLocaleLowerCase();
+
+if (basePath === 'e-commerce-itm') {
+  basePath = segments[1] ? String(segments[1]).toLocaleLowerCase() : 'home';
+}
 
 const navigator = document.querySelectorAll('.navigator a');
 const main = document.querySelector('main');
@@ -15,11 +19,11 @@ const paths = {
   'contact': 'contact-us'
 };
 
-import productList from './modules/products-list';
-import productDetail from './modules/product-detail';
-import aboutUs from './modules/about-us';
-import contactUs from './modules/contact-us';
-import pageNotFound from './modules/page-not-found';
+import productList from './modules/products-list/index.js';
+import productDetail from './modules/product-detail/index.js';
+import aboutUs from './modules/about-us/index.js';
+import contactUs from './modules/contact-us/index.js';
+import pageNotFound from './modules/page-not-found/index.js';
 
 switch (basePath) {
   case 'undefined':
