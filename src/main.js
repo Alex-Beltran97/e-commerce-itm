@@ -18,30 +18,29 @@ const paths = {
 import productList from './modules/products-list';
 import productDetail from './modules/product-detail';
 import aboutUs from './modules/about-us';
+import contactUs from './modules/contact-us';
+import pageNotFound from './modules/page-not-found';
 
 switch (basePath) {
   case 'undefined':
   case paths.home:
       handlenavigation("inicio");
       await productList();
-      console.log("INICIO");
     break;
     case paths.product:
       handlenavigation("producto");
       await productDetail();
-      console.log("PRODUCTO");
     break;
     case paths.about:
       handlenavigation("¿quienes somos?");
       await aboutUs();
-      console.log("SOBRE NOSOTROS");
     break;
   case paths.contact:
       handlenavigation("contactanos");
-      console.log("CONTACTO");
+      await contactUs();
     break;
   default:
-    console.log("PÁGINA NO ENCONTRADA");
+    await pageNotFound();
     break;
 };
 
