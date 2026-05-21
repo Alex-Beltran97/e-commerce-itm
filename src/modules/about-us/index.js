@@ -6,7 +6,7 @@ function renderAboutUs() {
         <p class="about-presentation__item about-presentation__item--description">Creemos que la verdadera elegancia reside en la sencillez. Nuestro proceso de selección elimina todo lo superfluo, dejando solo productos de una calidad excepcional, con un diseño funcional y un valor duradero.</p>
       </articule>
       <figure class="about-hero">
-        <img src="src/assets/hero.svg" alt="Descripción de la imagen" />
+        <img src="/src/assets/hero.svg" alt="Descripción de la imagen" />
       </figure>
       <article class="about-details">
         <div class="about-details__item about-details__item--philosophy">
